@@ -1,0 +1,31 @@
+{
+  "name": "demo-nodejs",
+  "version": "1.0.0",
+  "description": "this is a demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsuan619/shopping.git"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "package"
+  ],
+  "author": "wanda",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "8.5.1",
+    "express": "4.18.1",
+    "socket.io": "4.5.1",
+    "cookie-parser":""
+  },
+  "bugs": {
+    "url": "https://github.com/hsuan619/shopping/issues"
+  },
+  "homepage": "https://github.com/hsuan619/shopping#readme"
+}

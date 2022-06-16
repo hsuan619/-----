@@ -1,0 +1,64 @@
+h1{ 
+    font-family:American Typewriter;color: rgb(0,82,67);font-weight: bold;font-size: 80pt;
+}
+h2{
+    font-size: 22pt;color: rgb(204,124,20);font-weight: bold;
+}
+h3{
+    font-size: 50pt;color: rgb(0,82,67);font-weight: bold;
+    margin-bottom: 300px;
+     
+}
+.imgl1{
+    position: relative;
+    margin: 20px;
+}
+body{
+    background-color: rgb(56,180,139);
+    background-image: url("https://www.10wallpaper.com/wallpaper/1920x1080/1709/Ocean_Beach_Waves-Apple_iOS_11_iPhone_8_iPhone_X_HD_Wallpaper_1920x1080.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgl{
+    position: relative;
+    margin-left: 180px;
+    float: left;
+    margin: 10px;
+}
+.imgr{
+    position: relative;
+    margin-right: 180px;
+    float: right;
+    margin-bottom: 20px;
+}
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 13px 24px;
+    border: 1px solid #ffc87a;
+    border-radius: 0px;
+    background: #cd7d14;
+    background: -webkit-gradient(linear, left top, left bottom, from(#cd7d14), to(#cd7d14));
+    background: -moz-linear-gradient(top, #cd7d14, #cd7d14);
+    background: linear-gradient(to bottom, #cd7d14, #cd7d14);
+    font: normal normal bold 20px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:hover,
+.button:focus {
+    background: #f69618;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f69618), to(#f69618));
+    background: -moz-linear-gradient(top, #f69618, #f69618);
+    background: linear-gradient(to bottom, #f69618, #f69618);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #7b4b0c;
+    background: -webkit-gradient(linear, left top, left bottom, from(#7b4b0c), to(#cd7d14));
+    background: -moz-linear-gradient(top, #7b4b0c, #cd7d14);
+    background: linear-gradient(to bottom, #7b4b0c, #cd7d14);
+}
