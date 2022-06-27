@@ -37,7 +37,9 @@
       </td>
       <!--edit icon-->
       <td>
+
         <div class="pointer text-center" @click="edittask(index)">
+        
           <span class="fa fa-pen"></span>
         </div>
       </td>
@@ -93,11 +95,11 @@ export default {
             name: this.task,
             status: "To-Do", //push待辦 into tasks
           }
-        )
-        this.task = "" //輸入後清空搜尋欄
+        ) 
       }
       else{
-        this.tasks[this.eidtedtask].name = this.name //換成edited的
+        this.tasks[this.eidtedtask].name = this.task //換成edited的
+        this.task = "" //輸入後清空搜尋欄
         this.eidtedtask = null//變回null
       }
         
@@ -108,8 +110,9 @@ export default {
     },
 
     edittask(index){
+     
       this.task = this.tasks[index].name
-      this.eidtedtask = index
+      this.eidtedtask = index;
     },
     changestatus(index){
       let newindex = this.availablesstatus.indexOf(this.tasks[index].status)//右邊是原本的status
