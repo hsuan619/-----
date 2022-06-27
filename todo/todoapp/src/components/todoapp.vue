@@ -55,6 +55,9 @@
 </template>
 
 <script>
+
+
+
 export default {
   name: 'App',
   props: {
@@ -62,6 +65,7 @@ export default {
   },
   data(){
     return {
+      
       task :'', //connect input
       eidtedtask: null,
       availablesstatus: ["To-Do", "In-progress", "Done"],
@@ -79,6 +83,7 @@ export default {
     }
   },
   methods: { //fuction
+    
     submittask(){
       if(this.task.length === 0) return;
 
@@ -110,7 +115,7 @@ export default {
       let newindex = this.availablesstatus.indexOf(this.tasks[index].status)//右邊是原本的status
       if(++newindex > 2) newindex = 0;
       this.tasks[index].status = this.availablesstatus[newindex]
-    }
+    },
   }
 }
 </script>
